@@ -1,0 +1,119 @@
+.gallery {
+  padding-top: 140px;
+  position: relative;
+}
+
+.gallery::after {
+  content: url(../images/gelly__1.png);
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  transform: rotate(-62deg);
+
+  @media only screen and (max-width: 1620px) {
+    top: -4%;
+    left: 25%;
+    width: 53%;
+    transform: rotate(-31deg);
+  }
+
+  @media only screen and (max-width: 1420px) {
+    width: 24%;
+    top: -9%;
+    left: 18%;
+    transform: rotate(-24deg);
+  }
+
+  @media only screen and (max-width: 1290px) {
+    left: 10%;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    display: none;
+  }
+}
+
+.gallery::before {
+  content: "галерея";
+  position: absolute;
+  top: 55%;
+  left: -43%;
+  text-transform: uppercase;
+  font-size: 138px;
+  font-weight: 500;
+  color: #f6f6f7;
+  transform: rotate(-90deg);
+
+  @media only screen and (max-width: 1731px) {
+    left: -36%;
+  }
+
+  @media only screen and (max-width: 1560px) {
+    left: -33%;
+  }
+
+  @media only screen and (max-width: 1420px) {
+    font-size: 110px;
+    left: -28%;
+  }
+
+  @media only screen and (max-width: 1340px) {
+    font-size: 90px;
+  }
+  @media only screen and (max-width: 1200px) {
+    left: -32%;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    display: none;
+  }
+}
+.h2__two {
+  margin-bottom: 35px;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin: 80px 0 30px 0;
+}
+.text span {
+  text-decoration: underline;
+}
+
+.cols__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+  padding-bottom: 60px;
+
+  @media only screen and (max-width: 1100px) {
+    display: block;
+  }
+}
+
+.col-4 {
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.col__wrapper {
+  width: 100%;
+}
+
+.col__last {
+  margin-top: 172px;
+  @media only screen and (max-width: 1100px) {
+    margin-top: 0;
+  }
+}
+.photo {
+  margin: 15px 0;
+  border-radius: 4px;
+  max-width: 90%;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#6300CC" />
+    <title>mozgo.lviv.ua</title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/logo.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/logo.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logo.png" />
+    <meta name="description" content="mozgo.lviv.ua" />
+    <meta name="keywords" content="mozgo.lviv.ua" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+    <title>mozgoboinya</title>
+  </head>
+  <body>
+    <div class="wrapper__background">
+      <img class="head" src="./images/mozg.png" alt="" />
+      <header>
+        <div class="header__wrapper">
+          <a href="#" class="logo">
+            <img src="./images/logo.png" alt="logo" />
+          </a>
+          <div class="header__flex">
+            <a id="modal__open" class="header__date date" href="#">
+              11 вересня 2019</a
+            >
+            <div class=" header__city">
+              <p>Львiв</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <div class="container__wrapper">
+            <div class="position__name">
+              <div class="name__game line">
+                <p>«Тут буде назва»</p>
+              </div>
+            </div>
+            <div class="bg__h1">
+              <h1>Мозгобойня</h1>
+            </div>
+            <div class="registration">
+              <div class="registration__text lines ">
+                <p>Відкрита</p>
+                <p>реєстрація на гру</p>
+              </div>
+              <a id="pink__big" href="#" class="btn__pink btn">
+                реєстрація
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <a href="https://www.facebook.com/mzgb.lviv/"  target="blanck"  class="icon">
+            <i class="fa fa-facebook icon__style"></i>
+          </a>
+          <a href="https://www.instagram.com/mzgb_lviv/" target="blanck" class="icon">
+            <i class="fa fa-instagram icon__style"></i>
+          </a>
+        </div>
+      </section>
+          <!-- popup -->
+    <div id="modal" class="popup__wrapper">
+        <div class="popup">
+          <button id="closed" class="closed__popup"></button>
+            <h3 class="popup__h3">Заповніть форму</h3>
+            <form action="">
+              <div class="form__wrapper">
+                <div class="input__wrraper">
+                    <input type="text" class="input" name="name" placeholder="Ваше ім'я*" required="" value="">
+                </div>
+                <div class="input">
+                    <input type="text"  class="input" name="phone" placeholder="Ваше телефон*" required="" value="" data-country="+38(0" data-phone="qq) qqq qq qq"/>
+                </div>
+                <input type="hidden" name="game" value="21">
+                <input type="hidden" name="game_date" value="19:00 11.09.2019">
+                <input type="hidden" name="amount" value="150">
+                <!-- .popup__wrapper для перехода + еще сделать что регистарция прошла успешно -->
+                  <a href="#"  type="button" 
+                  class="pink pink__smoll">Зареєструватися</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--end  popup  -->
+    </div>
+    <section>
+      <div class="section__wrapper">
+        <div class="container">
+          <h2 class="h2__first">Вiдео про нас</h2>
+          <div class="video__block ">
+            <a href="./images/mzgb.mp4" class="play__icon"  data-fancybox="" >
+              <i class="icon__position fa fa-play"></i>
+            </a>
+             <a class="preview" data-fancybox="" href="./images/mzgb.mp4">
+              <img  class="preview" src="./images/img10.jpg" alt="video">
+            </a>
+          </div>
+          <div class="gallery">
+              <h2 class="h2__first h2__two">Галерея</h2>
+              <div class="cols__wrapper">
+                <div class="col-4">
+                  <div class="col__wrapper">
+                      <p class="text"><span>МозгоБійня</span>- це коли, <br> відчуваєш, що живеш  </p>
+                      <a rel="gallery1" href="./images/img10.jpg" data-fancybox="">
+                        <img class="photo" src="./images/img10.jpg" alt="photo">
+                      </a>
+                      <a rel="gallery1" href="./images/img4.jpg" data-fancybox="">
+                        <img class="photo" src="./images/img4.jpg" alt="photo">
+                      </a>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="col__wrapper">
+                    <a rel="gallery1" href="./images/img2.jpg" data-fancybox="">
+                      <img class="photo" src="./images/img2.jpg" alt="photo">
+                    </a>
+                    <a rel="gallery1" href="./images/img5.jpg" data-fancybox="">
+                      <img class="photo" src="./images/img5.jpg" alt="photo">
+                    </a>
+                  </div>
+                </div> 
+                <div class="col-4">
+                  <div class="col__wrapper  col__last">
+                    <a rel="gallery1"  href="./images/img3.jpg" data-fancybox="">
+                      <img class="photo" src="./images/img3.jpg" alt="photo">
+                    </a>
+                    <a rel="gallery1" href="./images/img6.jpg" data-fancybox="">
+                      <img class="photo" src="./images/img6.jpg" alt="photo">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="container">
+          <h2 class="first__h3">Акційні <br> пропозиції від <br> наших партнерів</h2>
+          <img class="footer__img" src="./images/footer-img.png" alt="">
+          <div class="img__formobile">
+            <img class="for__mobile" src="./images/brend1.png" alt="">
+            <img class="for__mobile" src="./images/brend2.png" alt="">
+            <img class="for__mobile" src="./images/brend3.png" alt="">
+            <img class="for__mobile" src="./images/brend5.png" alt="">
+            <img class="for__mobile" src="./images/brend6.png" alt="">
+          </div>
+          <div class="lezy__wrapper">
+            <div class="lazy">
+              <div>
+                <img class="img__slick img__size" src="" data-lazy="./images/brend1.png" alt="brend"></div>
+              <div>
+                  <img class="img__slick" src="" data-lazy="./images/brend2.png" alt="brend">
+              </div>
+              <div>
+                <img class="img__slick" src="" data-lazy="./images/brend3.png" alt="brend">
+              </div>
+              <div>
+                <img class="img__slick" src="" data-lazy="./images/brend5.png" alt="brend">
+              </div>
+              <div>
+                <img class="img__slick img__size" src="" data-lazy="./images/brend6.png" alt="brend">
+              </div> 
+            </div>
+          </div>
+        </div> 
+      </div>
+    </footer>
+    <script src="./js/jquery-3.4.1.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
+    <script src="./js/common.js"></script>
+  </body>
+</html>
